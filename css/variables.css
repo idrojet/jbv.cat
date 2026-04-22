@@ -1,0 +1,50 @@
+:root {
+  /* Colors */
+  --bg:          #000000;
+  --bg-card:     #0d0d0d;
+  --bg-card-hover: #111111;
+  --border:      #1a1a1a;
+  --border-accent: #00b89433;
+  --text:        #ffffff;
+  --text-muted:  #888888;
+  --accent:      #00b894;
+  --accent-dim:  #00b89466;
+  --accent-glow: #00b89422;
+
+  /* Typography */
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+  --font-sans: 'JetBrains Mono', monospace;
+
+  --fs-xs:   0.75rem;
+  --fs-sm:   0.875rem;
+  --fs-base: 1rem;
+  --fs-md:   1.125rem;
+  --fs-lg:   1.5rem;
+  --fs-xl:   2rem;
+  --fs-2xl:  2.75rem;
+  --fs-3xl:  3.5rem;
+
+  /* Spacing */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+
+  /* Layout */
+  --max-width: 1100px;
+  --nav-height: 60px;
+
+  /* Transitions */
+  --transition: 200ms ease;
+  --transition-slow: 400ms ease;
+
+  /* Border radius */
+  --radius-sm: 4px;
+  --radius:    8px;
+  --radius-lg: 12px;
+}

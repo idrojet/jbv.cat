@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jordi Boixader Vilella — Desenvolupador autodidacta. Portafoli de projectes tecnològics, automatitzacions i experiments amb codi." />
+  <meta name="author" content="Jordi Boixader Vilella" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Jordi Boixader Vilella — jbv.cat" />
+  <meta property="og:description" content="Portafoli personal de projectes, automatitzacions i experiments amb codi." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://jbv.cat" />
+
+  <title>jbv.cat — Jordi Boixader Vilella</title>
+  <!-- Favicon — navegadors moderns -->
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <!-- Favicon — navegadors vells (IE, Edge legacy...) -->
+  <link rel="alternate icon" type="image/x-icon" href="assets/icons/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/icon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/icon-16.png" />
+  <!-- iOS Safari — icona pantalla d'inici -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/icon-180.png" />
+  <!-- Android Chrome — manifest PWA -->
+  <link rel="manifest" href="assets/icons/site.webmanifest" />
+  <meta name="theme-color" content="#00b894" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ─── Nav ──────────────────────────────────────────── -->
+  <nav>
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo"><em>&lt;</em>jbv<span>.cat</span><em>/&gt;</em></a>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre mi</a></li>
+        <li><a href="#projects">Projectes</a></li>
+        <li><a href="#stack">Stack</a></li>
+        <li><a href="#contact">Contacte</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ─── Hero ─────────────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hero-prompt">./init jordi.sh</p>
+        <h1 class="hero-name">
+          Jordi<br />
+          <span class="accent">Boixader</span> Vilella
+        </h1>
+        <p class="hero-title">
+          <span id="typing-text"></span><span class="cursor"></span>
+        </p>
+        <p class="hero-bio">
+          Faig coses amb codi: projectes personals, experiments, eines petites
+          i de tant en tant alguna cosa per a algú. Aprenc fent.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Veure projectes</a>
+          <a href="#contact" class="btn btn-ghost">Contacte</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/img/jbv.cat-jordi.png" alt="Jordi Boixader Vilella" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── About ────────────────────────────────────────── -->
+  <section id="about">
+    <div class="container">
+      <p class="section-label reveal">whoami</p>
+      <h2 class="section-title reveal">Sobre mi</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            Soc en <strong>Jordi</strong>. Faig codi des de fa anys, per afició i per necessitat.
+            Autodidacta convençut: he après per projectes, per errors i per moltes hores de documentació.
+          </p>
+          <p>
+            M'interessa <strong>construir coses útils</strong>: automatitzar processos, crear eines
+            que m'estalviïn temps, explorar idees noves. Python és el meu llenguatge principal,
+            però poso les mans a tot el que faci falta.
+          </p>
+          <p>
+            Si algun projecte m'interpel·la, m'hi poso. Sempre amb ganes d'aprendre el que faci falta
+            per tirar-lo endavant.
+          </p>
+        </div>
+        <div class="reveal">
+          <p class="skills-title">Tecnologies que faig servir</p>
+          <div class="skills-list">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">Bash</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML / CSS</span>
+            <span class="skill-tag">Raspberry Pi</span>
+            <span class="skill-tag">API REST</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Projects ─────────────────────────────────────── -->
+  <section id="projects">
+    <div class="container">
+      <p class="section-label reveal">ls -la ./projects</p>
+      <h2 class="section-title reveal">Projectes</h2>
+      <p class="section-subtitle reveal">
+        El que he fet, el que tinc entre mans, i el que vindrà.
+      </p>
+
+      <div class="filters reveal">
+        <button class="filter-btn active" data-filter="all">Tots</button>
+        <button class="filter-btn" data-filter="done">Fets</button>
+        <button class="filter-btn" data-filter="in-progress">En curs</button>
+        <button class="filter-btn" data-filter="pending">Pendents</button>
+      </div>
+
+      <div class="projects-grid" id="projects-grid">
+        <!-- Renderitzat per JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Stack ────────────────────────────────────────── -->
+  <section id="stack">
+    <div class="container">
+      <p class="section-label reveal">cat stack.txt</p>
+      <h2 class="section-title reveal">Stack habitual</h2>
+      <p class="section-subtitle reveal">
+        El que faig servir al dia a dia.
+      </p>
+
+      <div class="stack-grid">
+        <div class="stack-category reveal">
+          <p class="stack-category-title">Backend</p>
+          <ul class="stack-items">
+            <li class="stack-item">Python</li>
+            <li class="stack-item">FastAPI</li>
+            <li class="stack-item">PHP</li>
+            <li class="stack-item">SQLite / PostgreSQL</li>
+            <li class="stack-item">REST APIs</li>
+          </ul>
+        </div>
+        <div class="stack-category reveal">
+          <p class="stack-category-title">Frontend</p>
+          <ul class="stack-items">
+            <li class="stack-item">HTML5</li>
+            <li class="stack-item">CSS3</li>
+            <li class="stack-item">JavaScript (vanilla)</li>
+          </ul>
+        </div>
+        <div class="stack-category reveal">
+          <p class="stack-category-title">DevOps / Infra</p>
+          <ul class="stack-items">
+            <li class="stack-item">Linux / Bash</li>
+            <li class="stack-item">Docker</li>
+            <li class="stack-item">Git / GitHub</li>
+            <li class="stack-item">Nginx</li>
+            <li class="stack-item">n8n</li>
+          </ul>
+        </div>
+        <div class="stack-category reveal">
+          <p class="stack-category-title">Hardware / Altres</p>
+          <ul class="stack-items">
+            <li class="stack-item">Raspberry Pi</li>
+            <li class="stack-item">Self-hosting</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Contact ──────────────────────────────────────── -->
+  <section id="contact">
+    <div class="container">
+      <p class="section-label reveal">ping jordi</p>
+      <h2 class="section-title reveal">Contacte</h2>
+      <div class="contact-grid">
+        <div class="contact-text reveal">
+          <p>
+            Per a qualsevol cosa: un projecte, una pregunta, o simplement dir hola.
+          </p>
+          <p>
+            Estic obert a col·laboracions i converses sobre tecnologia.
+          </p>
+        </div>
+        <div class="contact-links reveal">
+          <a id="contact-email" href="#" class="contact-link">
+            <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+            </svg>
+            <div>
+              <span class="contact-link-label">Email</span>
+              <span id="contact-email-text">jordi [at] boixader [dot] com</span>
+            </div>
+          </a>
+          <a href="https://github.com/idrojet" class="contact-link" target="_blank" rel="noopener">
+            <svg class="contact-link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+            </svg>
+            <div>
+              <span class="contact-link-label">GitHub</span>
+              <span class="contact-link-value">github.com/idrojet</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── Footer ───────────────────────────────────────── -->
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-copy">
+        &copy; 2026 <span>Jordi Boixader Vilella</span> — jbv.cat
+      </p>
+      <p class="footer-made">
+        HTML, CSS i JavaScript. Sense frameworks. Fet amb Claude Code.
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

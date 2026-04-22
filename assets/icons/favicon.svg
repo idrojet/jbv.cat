@@ -1,0 +1,7 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <rect width="64" height="64" rx="12" fill="#000000"/>
+  <text x="50%" y="56%" text-anchor="middle" dominant-baseline="middle"
+        fill="#00b894"
+        font-family="JetBrains Mono, Fira Code, Cascadia Code, monospace"
+        font-size="15" font-weight="600">&lt;jbv/&gt;</text>
+</svg>

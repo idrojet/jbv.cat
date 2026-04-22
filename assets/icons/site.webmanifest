@@ -1,0 +1,13 @@
+{
+  "name": "Jordi Boixader Vilella",
+  "short_name": "jbv.cat",
+  "description": "Portafoli personal i projectes tecnològics",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00b894",
+  "icons": [
+    { "src": "/assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
