@@ -5,7 +5,7 @@ const projects = [
     tags: ["HTML", "CSS", "JavaScript"],
     status: "in-progress",
     url: "https://jbv.cat",
-    repo: "https://github.com/Idrojet/jbv.cat",
+    repo: "https://github.com/idrojet/jbv.cat",
   },
   {
     title: "Projecte d'exemple — Fet",
