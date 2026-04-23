@@ -8,6 +8,13 @@ const projects = [
     repo: "https://github.com/idrojet/jbv.cat",
   },
   {
+    title: "lillet-display",
+    description: "Sistema de cartelleria digital gestionable des del navegador, instal·lat en una Oficina de Turisme. Raspberry Pi en mode quiosc amb panell d'administració propi.",
+    tags: ["PHP", "SQLite", "Raspberry Pi", "Apache", "JavaScript"],
+    status: "in-progress",
+    private: true,
+  },
+  {
     title: "Projecte d'exemple — Fet",
     description: "Descripció del projecte acabat. Aquí pots explicar breument de què va i quin problema resol.",
     tags: ["Python", "FastAPI"],
