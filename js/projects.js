@@ -4,8 +4,8 @@ const projects = [
     description: "Portafoli personal. Web estàtica amb HTML, CSS i JS pur. Disseny minimalista fosc amb estètica terminal.",
     tags: ["HTML", "CSS", "JavaScript"],
     status: "in-progress",
-    repo: "https://github.com/idrojet/jbv.cat",
-    private: true,
+    url: "https://jbv.cat",
+    repo: "https://github.com/Idrojet/jbv.cat",
   },
   {
     title: "Projecte d'exemple — Fet",
