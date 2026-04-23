@@ -1,6 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
 @import 'reset.css';
 @import 'variables.css';
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../assets/fonts/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../assets/fonts/JetBrainsMono-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../assets/fonts/JetBrainsMono-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('../assets/fonts/JetBrainsMono-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* ─── Base ─────────────────────────────────────────────── */
 
@@ -617,6 +648,15 @@ nav {
 
 /* ─── Footer ────────────────────────────────────────────── */
 
+.footer-link {
+  color: var(--text-muted);
+  transition: color var(--transition);
+}
+
+.footer-link:hover {
+  color: var(--accent);
+}
+
 footer {
   border-top: 1px solid var(--border);
   padding: var(--space-8) 0;
@@ -643,6 +683,33 @@ footer {
 .footer-made {
   font-size: var(--fs-xs);
   color: var(--text-muted);
+}
+
+/* ─── Privacy page ─────────────────────────────────────── */
+
+.privacy-content {
+  max-width: 680px;
+}
+
+.privacy-section {
+  margin-bottom: var(--space-12);
+}
+
+.privacy-h2 {
+  font-size: var(--fs-base);
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: var(--space-4);
+  padding-bottom: var(--space-2);
+  border-bottom: 1px solid var(--border);
+}
+
+.privacy-updated {
+  font-size: var(--fs-xs);
+  color: var(--text-muted);
+  margin-top: var(--space-16);
+  padding-top: var(--space-6);
+  border-top: 1px solid var(--border);
 }
 
 /* ─── Scroll reveal ─────────────────────────────────────── */

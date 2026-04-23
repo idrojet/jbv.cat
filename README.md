@@ -5,7 +5,7 @@ Portafoli personal com a desenvolupador i creador. Web estàtica amb llistat de 
 ## Tecnologies
 
 - HTML5, CSS3, JavaScript (ES modules, sense frameworks)
-- JetBrains Mono via Google Fonts
+- JetBrains Mono (self-hosted, llicència OFL)
 
 ## Executar en local
 
@@ -18,6 +18,8 @@ python3 -m http.server 8080
 Obre `http://localhost:8080` al navegador.
 
 > Els ES modules requereixen servir els fitxers via HTTP, no des de `file://`.
+
+> El web no fa crides a serveis externs: totes les tipografies es serveixen localment des de `assets/fonts/`.
 
 ## Ús com a plantilla
 
