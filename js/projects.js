@@ -15,6 +15,13 @@ const projects = [
     private: true,
   },
   {
+    title: "agendacoffee",
+    description: "Plataforma digital multiplataforma (web i, en el futur, Android) per centralitzar, dinamitzar i visibilitzar la vida cultural, social i institucional d'un municipi.",
+    tags: ["PHP", "MariaDB", "HTML", "CSS", "JavaScript", "Composer"],
+    status: "in-progress",
+    private: true,
+  },
+  {
     title: "Projecte d'exemple — Fet",
     description: "Descripció del projecte acabat. Aquí pots explicar breument de què va i quin problema resol.",
     tags: ["Python", "FastAPI"],
