@@ -21,20 +21,6 @@ const projects = [
     status: "in-progress",
     private: true,
   },
-  {
-    title: "Projecte d'exemple — Fet",
-    description: "Descripció del projecte acabat. Aquí pots explicar breument de què va i quin problema resol.",
-    tags: ["Python", "FastAPI"],
-    status: "done",
-    url: "",
-    repo: "",
-  },
-  {
-    title: "Projecte d'exemple — Pendent",
-    description: "Idea o projecte que tens al backlog. Pots afegir notes sobre per on vols anar.",
-    tags: ["Idea", "TBD"],
-    status: "pending",
-  },
 ];
 
 export default projects;

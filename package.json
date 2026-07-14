@@ -1,4 +1,12 @@
 {
+  "name": "jbv.cat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "bash tests/test_prepara_deploy.sh",
+    "deploy:prepare": "bash scripts/prepara-deploy.sh",
+    "deploy:check": "bash scripts/prepara-deploy.sh --check"
+  },
   "devDependencies": {
     "png-to-ico": "^3.0.1",
     "sharp": "^0.34.5"
